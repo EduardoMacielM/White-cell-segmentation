@@ -1,0 +1,19 @@
+ For training, the training pictures must be in keras-frcnn/keras_frcnn/train_images. All the images must be named 
+ "1.jpg","2.jpg", etc.
+ The labels must be in a .txt file containing the label information as follows:
+ 
+ Image_path/filename.jpg,xmin,ymin,xmax,ymax,label
+ Image_path/filename2.jpg,xmin,ymin,xmax,ymax,label
+
+and so.
+
+Then, in a terminal window go to keras-frcnn and write:
+"python3 train_frcnn.py -o simple -p keras_frcnn/annotate.txt" without the quotes, being annotate.txt the file
+in which the labels are contained.
+To adjust the epoch size and the number of epochs go to train_frcnn.py.
+
+After training, test the RCNN. The test images must be in keras-frcnn/test_images
+Then, in a terminal window write:
+"python3 test_frcnn.py -p test_images" without quotes.
+
+
