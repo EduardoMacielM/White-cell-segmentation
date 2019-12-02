@@ -1,0 +1,12 @@
+main.py detects the Monocytes, Neutrophils and Lymphocytes. 
+To select the image, open main.py and change the file name and path where it is indicated. Then run the script.
+After each figure appears and the number of Neutrohils appear, press "0" to continue, after the new figure and the
+number of Monocytes appear, press 0 again. Finally, a last figure detecting the lymphocytes will appear as the number of them will
+be printed. 
+
+Also, there each cell is segmented in a different code.
+blobsNeut.py makes the detection of Neutrophils.
+blobsLinf.py makes the detection of Lymphocytes
+blobsMon.py makes the detection of Monocytes
+
+To select the image to test, open any code and change the path and filename where it is indicated, and run the script.
